@@ -124,6 +124,94 @@ tech-challenge-fiap/
 
 ---
 
+## Estrutura do Repositório
+```bash
+.
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── pyproject.toml
+│
+├── config/
+│   ├── config.json
+│   ├── finops_parameters.json
+│   ├── streaming_metadata.json
+│
+├── notebooks/
+│   │
+│   ├── 00_setup/
+│   │   └── 00_setup_ambiente.ipynb
+│   │
+│   ├── 01_bronze/
+│   │   ├── 01_0_bronze_planejador.ipynb
+│   │   ├── 01_1_bronze_alunos.ipynb
+│   │   ├── 01_2_bronze_estados.ipynb
+│   │   ├── 01_3_bronze_municipios.ipynb
+│   │   ├── 01_4_bronze_metas_municipios.ipynb
+│   │   └── 01_5_bronze_metas_ufs.ipynb
+│   │
+│   ├── 02_silver/
+│   │   ├── 02_0_silver_planejador.ipynb
+│   │   ├── 02_1_silver_alunos.ipynb
+│   │   ├── 02_2_silver_estados.ipynb
+│   │   ├── 02_3_silver_municipios.ipynb
+│   │   ├── 02_4_silver_metas_municipios.ipynb
+│   │   └── 02_5_silver_metas_ufs.ipynb
+│   │
+│   ├── 03_gold/
+│   │   ├── 03_0_gold_planejador.ipynb
+│   │   ├── 03_gold_orquestrador.ipynb
+│   │   ├── 03_1_gold_alunos.ipynb
+│   │   ├── 03_2_gold_municipios.ipynb
+│   │   ├── 03_3_gold_estados.ipynb
+│   │   ├── 03_4_gold_indicadores.ipynb
+│   │   ├── 03_5_gold_powerbi.ipynb
+│   │   └── 03_6_gold_machine_learning.ipynb
+│   │
+│   ├── 04_streaming/
+│   │   ├── 04_0_streaming_planejador.ipynb
+│   │   ├── 04_1_streaming_simulador_eventos.ipynb
+│   │   ├── 04_2_streaming_bronze.ipynb
+│   │   ├── 04_3_streaming_silver.ipynb
+│   │   └── 04_4_streaming_gold.ipynb
+│   │
+│   ├── 05_quality/
+│   │   ├── 05_0_quality_planejador.ipynb
+│   │   ├── 05_0_quality_orquestrador.ipynb
+│   │   ├── 05_1_quality_bronze.ipynb
+│   │   ├── 05_2_quality_silver.ipynb
+│   │   ├── 05_3_quality_gold.ipynb
+│   │   └── 05_4_quality_dashboard.ipynb
+│   │
+│   ├── 06_monitoring/
+│   │   └── 06_monitoring.ipynb
+│   │
+│   ├── 07_finops/
+│   │   └── 07_finops.ipynb
+│   │
+│   └── 08_ia_modelagem/
+│       └── 08_ia_modelagem.ipynb
+│
+├── docs/
+│   ├── FinOps.png
+│   ├── Gold.png
+│   ├── Job Pipeline.png
+│   ├── Job_pipeline_execução.mp4
+│   ├── Job_pipeline_streaming.mp4
+│   ├── Pipeline executada completa.png
+│   ├── Pipeline Streaming executando.png
+│   ├── Pipeline Streaming executada.png
+│   ├── Possivéis Dashboards.png
+│
+├── presentation/
+│   ├── TechChallenge_Apresentacao_Executiva.pptx
+
+```
+---
+
+
 ## 10. Governança e Boas Práticas de Git
 O ciclo de desenvolvimento do pipeline de dados é regido por padrões modernos de engenharia de software para garantir a reprodutibilidade e a governança das alterações de código e dados:
 
