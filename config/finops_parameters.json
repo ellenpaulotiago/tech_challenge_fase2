@@ -1,0 +1,11 @@
+{
+    "storage_cost_usd_per_gb_month": 0.023,
+    "read_cost_usd_per_gb": 0.005,
+    "write_cost_usd_per_gb": 0.005,
+    "compute_cost_usd_per_dbu": 0.2,
+    "estimated_dbu_per_execution": 1.5,
+    "usd_to_brl": 5.5,
+    "small_file_threshold_mb": 16.0,
+    "target_file_size_mb": 128.0,
+    "quality_penalty_cost_usd_per_invalid_record_million": 1.0
+}

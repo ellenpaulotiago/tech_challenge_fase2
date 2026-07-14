@@ -1,0 +1,155 @@
+{
+    "project_name": "fiap_alfabetizacao",
+    "project_version": "tech_challenge_fase2",
+    "base_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2",
+    "raw_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw",
+    "bronze_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/bronze",
+    "silver_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/silver",
+    "gold_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/gold",
+    "streaming_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming",
+    "log_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/logs",
+    "docs_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/docs",
+    "config_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/config",
+    "execution_date": "2026-07-09",
+    "bucket_s3": "s3://s3tc2/projetos/fiap/tech_challenge_fase2/",
+    "storage_credential": "trio-user",
+    "external_volume": "workspace.default.vol_trio_drive",
+    "volume_root": "/Volumes/workspace/default/vol_trio_drive",
+    "project_prefix": "projetos/fiap/tech_challenge_fase2",
+    "project": {
+        "name": "fiap_alfabetizacao",
+        "version": "tech_challenge_fase2",
+        "execution_date": "2026-07-09",
+        "description": "FIAP Tech Challenge Fase 2 - Pipeline híbrido para análise da alfabetização no Brasil"
+    },
+    "environment": {
+        "cloud": "AWS",
+        "bucket_s3": "s3://s3tc2/projetos/fiap/tech_challenge_fase2/",
+        "volume_root": "/Volumes/workspace/default/vol_trio_drive",
+        "base_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2",
+        "external_volume": "workspace.default.vol_trio_drive",
+        "unity_catalog": true
+    },
+    "paths": {
+        "raw_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw",
+        "bronze_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/bronze",
+        "silver_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/silver",
+        "gold_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/gold",
+        "streaming_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming",
+        "log_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/logs",
+        "docs_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/docs",
+        "config_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/config"
+    },
+    "datasets": {
+        "names": [
+            "alunos",
+            "estados",
+            "municipios",
+            "metas_municipios",
+            "metas_ufs"
+        ],
+        "years": [
+            2023,
+            2024,
+            2025
+        ],
+        "expected_files": [
+            {
+                "dataset": "alunos",
+                "ano": 2023,
+                "file_name": "TS_ALUNO_2023.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/alunos/TS_ALUNO_2023.csv"
+            },
+            {
+                "dataset": "alunos",
+                "ano": 2024,
+                "file_name": "TS_ALUNO_2024.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/alunos/TS_ALUNO_2024.csv"
+            },
+            {
+                "dataset": "alunos",
+                "ano": 2025,
+                "file_name": "TS_ALUNO_2025.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/alunos/TS_ALUNO_2025.csv"
+            },
+            {
+                "dataset": "estados",
+                "ano": 2023,
+                "file_name": "TS_ESTADO_2023.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/estados/TS_ESTADO_2023.csv"
+            },
+            {
+                "dataset": "estados",
+                "ano": 2024,
+                "file_name": "TS_ESTADO_2024.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/estados/TS_ESTADO_2024.csv"
+            },
+            {
+                "dataset": "estados",
+                "ano": 2025,
+                "file_name": "TS_ESTADO_2025.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/estados/TS_ESTADO_2025.csv"
+            },
+            {
+                "dataset": "municipios",
+                "ano": 2023,
+                "file_name": "TS_MUNICIPIO_2023.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/municipios/TS_MUNICIPIO_2023.csv"
+            },
+            {
+                "dataset": "municipios",
+                "ano": 2024,
+                "file_name": "TS_MUNICIPIO_2024.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/municipios/TS_MUNICIPIO_2024.csv"
+            },
+            {
+                "dataset": "municipios",
+                "ano": 2025,
+                "file_name": "TS_MUNICIPIO_2025.csv",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/municipios/TS_MUNICIPIO_2025.csv"
+            },
+            {
+                "dataset": "metas_municipios",
+                "ano": 2023,
+                "file_name": "metas_municipios_2023.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_municipios/metas_municipios_2023.xlsx"
+            },
+            {
+                "dataset": "metas_municipios",
+                "ano": 2024,
+                "file_name": "metas_municipios_2024.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_municipios/metas_municipios_2024.xlsx"
+            },
+            {
+                "dataset": "metas_municipios",
+                "ano": 2025,
+                "file_name": "metas_municipios_2025.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_municipios/metas_municipios_2025.xlsx"
+            },
+            {
+                "dataset": "metas_ufs",
+                "ano": 2023,
+                "file_name": "metas_ufs_2023.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_ufs/metas_ufs_2023.xlsx"
+            },
+            {
+                "dataset": "metas_ufs",
+                "ano": 2024,
+                "file_name": "metas_ufs_2024.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_ufs/metas_ufs_2024.xlsx"
+            },
+            {
+                "dataset": "metas_ufs",
+                "ano": 2025,
+                "file_name": "metas_ufs_2025.xlsx",
+                "expected_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/raw/metas_ufs/metas_ufs_2025.xlsx"
+            }
+        ]
+    },
+    "source_format": {
+        "metas_files_format": "xlsx",
+        "metas_reader": "pandas.read_excel",
+        "excel_engine": "openpyxl",
+        "metas_header_rule": "technical_header_after_skiprows_1"
+    }
+}

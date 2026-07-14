@@ -1,0 +1,19 @@
+{
+    "input_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/input",
+    "bronze_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/bronze_streaming",
+    "silver_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/silver_streaming",
+    "gold_path": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/gold_streaming",
+    "checkpoint_bronze": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/checkpoint/bronze",
+    "checkpoint_silver": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/checkpoint/silver",
+    "checkpoint_gold": "/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase2/streaming/checkpoint/gold",
+    "event_types": [
+        "indicador_atualizado",
+        "meta_atualizada",
+        "resultado_corrigido"
+    ],
+    "valid_value_range": {
+        "min": 0.0,
+        "max": 100.0
+    },
+    "execution_date": "2026-07-09"
+}
