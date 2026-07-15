@@ -205,8 +205,8 @@ tech-challenge-fiap/
 │   ├── Pipeline Streaming executada.png
 │   ├── Possivéis Dashboards.png
 │
-├── presentation/
-│   ├── TechChallenge_Apresentacao_Executiva.pptx
+├── Presentation/
+│   ├── Video_Executivo_Fase2.mp4
 
 ```
 ---
