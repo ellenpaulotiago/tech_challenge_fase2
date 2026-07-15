@@ -129,10 +129,8 @@ tech-challenge-fiap/
 .
 │
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── requirements.txt
-├── pyproject.toml
 │
 ├── config/
 │   ├── config.json
