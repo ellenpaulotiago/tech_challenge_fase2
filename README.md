@@ -102,28 +102,6 @@ A camada Gold estruturada provê dados devidamente preparados e limpos (features
 ## 9. Organização Estrutural do Repositório
 A organização lógica e física do repositório de dados segue rigorosamente as melhores práticas internacionais de desenvolvimento e engenharia de software:
 
-```text
-tech-challenge-fiap/
-├── README.md
-├── requirements.txt
-├── docs/
-│   ├── arquitetura/         # Diagramas e topologia de rede
-│   ├── referencias/         # Documentos e links técnicos de apoio
-│   └── documentacao_tecnica/
-├── notebooks/
-│   ├── 00_setup/            # Configuração do ambiente e Unity Catalog
-│   ├── 01_bronze/           # Ingestão batch e controle de metadados
-│   ├── 02_silver/           # Limpeza, padronização e Data Quality
-│   ├── 03_gold/             # Agregações analíticas e tabelas de negócios
-│   ├── 04_monitoring/       # Logs, métricas e observabilidade contínua
-│   ├── 05_machine_learning/ # Modelagem preditiva e clusterização
-│   └── 06_power_bi/         # Preparação de fontes para Dashboards
-├── data/                    # Volumes locais estruturados para testes rápidos
-└── scripts/                 # Utilitários e validações de CI/CD
-```
-
----
-
 ## Estrutura do Repositório
 ```bash
 .
@@ -236,6 +214,9 @@ O ciclo de desenvolvimento do pipeline de dados é regido por padrões modernos 
 
 ### Pré-requisitos Operacionais
 * Conta ativa na AWS com bucket Amazon S3 estruturado.
+  * arn:aws:s3:::s3tc2
+  * Chave de acesso: AKIA4MGQA36UCC5QR3VM - Chave de acesso secreta: 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
+  * https://s3tc2.s3.sa-east-1.amazonaws.com/projetos/
 * Workspace Databricks ativo e integrado com o Unity Catalog habilitado.
 * *External Location* e credenciais de storage devidamente configurados no Unity Catalog.
 * Ambiente local ou cluster com Python 3.11+ e Apache Spark compatível com o runtime Databricks.
